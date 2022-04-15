@@ -1,0 +1,116 @@
+$moderateCyan: hsl(176, 50%, 47%);
+$darkCyan: hsl(176, 72%, 28%);
+
+
+.header {
+    background-image: url("../images/image-hero-mobile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    @include media-breakpoint-up(lg){
+        background-image: url("../images/image-hero-desktop.jpg");
+        height: 400px;
+    }
+}
+
+
+.navbar-collapse {
+    background-color: #fff;
+    margin-top: 10%;
+    border-radius: 10px;
+    @include media-breakpoint-up(lg){
+        margin-top: 0 !important;
+        background-color: transparent;
+        color: #fff;
+    }
+}
+
+.navbar-nav {
+    margin: 5%;
+    font-weight: 700;
+    @include media-breakpoint-up(lg){
+        font-weight: 500;
+    }
+}
+
+.navbar {
+    @include media-breakpoint-up(lg) {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.card-header {
+    margin: auto;
+    padding: auto;
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px !important;
+    margin-top: -16%;
+    width: 26rem;
+    border-radius: 20px;
+    @include media-breakpoint-up(lg){
+        margin-top: -5%;
+        width: 44rem;
+    }
+}
+
+.card-img {
+    position: relative;
+    width: 80px;
+    margin: auto;
+    padding: auto;
+    margin-top: -50px;
+    @include media-breakpoint-up(lg){
+        width: 50px;
+        margin-top: -40px;
+    }
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-back {
+    border-radius: 30px;
+    background-color: $moderateCyan;
+    height: 60px;
+    width: 250px;
+    font-weight: 500;
+    border: $moderateCyan;
+    &:hover, &:visited, &:focus  {
+        background-color: $darkCyan !important; 
+        border-color: $darkCyan !important;
+      }
+}
+
+.cta-bookmark {
+    background-color: transparent;
+    p {
+        display: none;
+    }
+    font-weight: 700;
+    &:hover {
+        opacity: .6;
+    }
+    &:focus {
+        background-color: $darkCyan;
+    }
+    @include media-breakpoint-up(lg){
+        background-color: rgb(240, 240, 240);
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 700;
+    p {
+        display: block;
+    }
+    }
+}
+

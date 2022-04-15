@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap');
+
+$font: 'Commissioner', sans-serif;
+$moderateCyan: hsl(176, 50%, 47%);
+$darkGrayLight: hsl(0, 0%, 48%, 0.1);
+$darkGray: hsl(0, 0%, 48%);
+
+body {
+    font-family: $font;
+}
+
+.card-title {
+    font-weight: 700;
+    font-family: 28px;
+    margin: 5%;
+    @include media-breakpoint-up(lg){
+        font-size: 24px;
+    }
+}
+
+.card-text {
+    margin-bottom: 5%;
+    @include media-breakpoint-up(lg){
+        font-size: 16px;
+    }
+}
+
+.card-bookmark-title {
+    margin-top: 5%;
+    font-weight: 700;
+    font-size: 45px;
+    @include media-breakpoint-up(lg){
+        font-size: 30px;
+        margin: 5%;
+        margin-top: 40%;
+        margin-left: 5%;
+    }
+}
+
+.card-bookmark-text {
+    @include media-breakpoint-up(lg) {
+    margin-left: 5%;
+    font-size: 16px;
+    }
+}
+
+
+.card-about-title {
+    font-weight: 700;
+    padding: 5%;
+}
+
+.card-about-text {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 18px;
+    color: $darkGray;
+    @include media-breakpoint-up(lg){
+        font-size: 16px;
+    }
+}
+
+.card-about-bamboo-title, .card-about-black-title {
+    margin: 10%;
+    font-size: 22px;
+    font-weight: 700;
+    @include media-breakpoint-up(lg){
+        font-size: 20px;
+    }
+}
+
+.card-about-bamboo-text, .card-about-black-text {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 5%;
+    font-size: 20px;
+    color: $darkGray;
+    @include media-breakpoint-up(lg){
+        font-size: 16px;
+        margin-left: 5%;
+        margin-top: 0;
+    }
+}
+
+.card-about-bambo-subtitle, .card-about-black-subtitle {
+    margin-left: 10%;
+    margin-top: -5%;
+    font-size: 20px;
+    color: $moderateCyan;
+    font-weight: 500;
+    @include media-breakpoint-up(lg){
+        margin-top: 17%;
+        font-size: 16px;
+}
+}
+
+.card-bamboo-subtitle, .card-black-subtitle, .card-mahogany-subtitle {
+    color: $moderateCyan;
+    font-weight: 700;
+    margin-left: 12%;
+    font-size: 16px;
+}
+
+.card-about-bambo-number {
+    margin-left: 10%;
+    font-size: 40px;
+    font-weight: 700;
+    spam {
+        font-size: 20px;
+        font-weight: 500;
+        color: $darkGray;
+    }
+}
+
+.form-check-label {
+    font-weight: 700;
+    padding-left: 5%;
+    cursor: pointer;
+    @include media-breakpoint-up(lg){
+        font-size: 16px;
+    }
+    &:hover {
+        color: $moderateCyan;
+    }
+}
+
+
+.dollar {
+  font-weight: 700;
+  color: $darkGray;
+  margin-bottom: 3px;
+  margin-left: 18px;
+  transform: translateY(-50%);
+  font-size: 0.85em;
+  //top: 50%;
+  margin-top: 19px;
+  position: absolute;
+  }
+
+.form-check-input:checked {
+    background-color: $moderateCyan;
+}
+
+.modal-text {
+    @include media-breakpoint-up(lg) {
+        font-size: 16px;
+    }
+  }
+
+  .card-back-text {
+      @include media-breakpoint-up(lg) {
+          font-size: 16px;
+      }
+  }
+
+.card-bambo-number, .card-black-number, .card-moahogany-number {
+   // margin-left: 10%;
+    font-size: 26px;
+    font-weight: 700;
+    spam {
+        margin-left: 2%;
+        font-weight: 500;
+    }
+    @include media-breakpoint-up(lg){
+        font-size: 16px;
+    }
+}
+
+.card-pledge {
+    @include media-breakpoint-up(lg) {
+        font-size: 16px;
+        color: $darkGray;
+    }
+}
+
+.card-about-black-text, .card-moahogany-text, .card-black-text, .card-bamboo-text {
+    color: $darkGray;
+    @include media-breakpoint-up(lg){
+        font-size: 16px;
+    }
+}
+
+.thankYouTitle {
+    font-weight: 700;
+}
+
+.thankYouText {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: $darkGray;
+    @include media-breakpoint-up(lg){
+        font-size: 16px;
+        margin-top: 5%;
+    }
+}
+
+.navbar-nav {
+    @include media-breakpoint-up(lg) {
+        li { 
+            a {
+                color: #fff !important;
+            }
+        }
+    }
+}
+
+.cta-bookmark {
+    p {
+        padding-left: 10%;
+        padding-top: 5%;
+    }
+}
+

@@ -13,6 +13,7 @@ $darkCyan: hsl(176, 72%, 28%);
     }
     @include media-breakpoint-up(xxl){
         width: 100%;
+        background-size: 100%;
     }
 }
 

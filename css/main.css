@@ -5286,6 +5286,7 @@ body {
 @media (min-width: 1400px) {
   .header {
     width: 100%;
+    background-size: 100%;
   }
 }
 

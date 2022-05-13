@@ -11,6 +11,9 @@ $darkCyan: hsl(176, 72%, 28%);
         background-image: url("../images/image-hero-desktop.jpg");
         height: 400px;
     }
+    @include media-breakpoint-up(xxl){
+        width: 100%;
+    }
 }
 
 

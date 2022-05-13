@@ -54,7 +54,7 @@ Users should be able to:
 
 ### What I Learned
 
-When understaking this project I was able to continue to work with Bootstrap 5 and JavaScript. I learn how to check if a value is present with an htmol and covert it to any array using JavaScript so that I was able to disable a button. This was somthing I didn't know about before working on this project.
+When undertaking this project I was able to continue to work with Bootstrap 5 and JavaScript. I learn how to check if a value is present with an htmol and covert it to any array using JavaScript so that I was able to disable a button. This was somthing I didn't know about before working on this project.
 
 ### Continued Development
 
